@@ -136,11 +136,7 @@ class RqChallengeApplicationTests {
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertNotNull(response.getBody());
         assertEquals(10, response.getBody().size());
-<<<<<<< HEAD
         assertEquals("Mr Test 10", response.getBody().get(0));
-=======
-        assertEquals("Mr Test 1", response.getBody().get(0));
->>>>>>> 68e3a677357b57068cb80c8622a05c46c2cdb56e
         assertTrue(response.getBody().stream()
                         .noneMatch(name -> name.toLowerCase().contains("Mr test 11")),
                 "No employee name should contain Mr Test 11");

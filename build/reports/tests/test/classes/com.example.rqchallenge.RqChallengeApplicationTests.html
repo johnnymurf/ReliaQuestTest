@@ -23,11 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<<<<<<< HEAD
 <div class="counter">22</div>
-=======
-<div class="counter">1</div>
->>>>>>> 68e3a677357b57068cb80c8622a05c46c2cdb56e
 <p>tests</p>
 </div>
 </td>
@@ -45,11 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<<<<<<< HEAD
-<div class="counter">0.371s</div>
-=======
-<div class="counter">0.316s</div>
->>>>>>> 68e3a677357b57068cb80c8622a05c46c2cdb56e
+<div class="counter">0.357s</div>
 <p>duration</p>
 </div>
 </td>
@@ -86,9 +78,8 @@
 </tr>
 </thead>
 <tr>
-<<<<<<< HEAD
 <td class="success">createEmployee_AgeExceedsMaximum()</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -98,7 +89,7 @@
 </tr>
 <tr>
 <td class="success">createEmployee_InvalidAge()</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -113,12 +104,12 @@
 </tr>
 <tr>
 <td class="success">createEmployee_NegativeSalary()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">createEmployee_NullName()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -133,12 +124,12 @@
 </tr>
 <tr>
 <td class="success">deleteEmployeeById_InvalidId()</td>
-<td class="success">0.321s</td>
+<td class="success">0.315s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">deleteEmployeeById_NotFound()</td>
-<td class="success">0.003s</td>
+<td class="success">0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -148,12 +139,12 @@
 </tr>
 <tr>
 <td class="success">getAllEmployees_NetworkError()</td>
-<td class="success">0.006s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">getAllEmployees_Success()</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -168,17 +159,17 @@
 </tr>
 <tr>
 <td class="success">getEmployeeById_Success()</td>
-<td class="success">0.014s</td>
+<td class="success">0.009s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">getEmployeesByNameSearch_Success()</td>
-<td class="success">0.002s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">getHighestSalaryOfEmployees_EmptyList()</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -193,11 +184,7 @@
 </tr>
 <tr>
 <td class="success">getTopTenHighestEarningEmployeeNames_Success()</td>
-<td class="success">0.002s</td>
-=======
-<td class="success">deleteEmployeeById_NotFound()</td>
-<td class="success">0.316s</td>
->>>>>>> 68e3a677357b57068cb80c8622a05c46c2cdb56e
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -205,47 +192,25 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<<<<<<< HEAD
-<pre>20:10:58.776 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-20:10:58.781 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-20:10:58.795 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.rqchallenge.RqChallengeApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
-20:10:58.800 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.rqchallenge.RqChallengeApplicationTests], using SpringBootContextLoader
-20:10:58.802 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.rqchallenge.RqChallengeApplicationTests]: class path resource [com/example/rqchallenge/RqChallengeApplicationTests-context.xml] does not exist
-20:10:58.802 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.rqchallenge.RqChallengeApplicationTests]: class path resource [com/example/rqchallenge/RqChallengeApplicationTestsContext.groovy] does not exist
-20:10:58.802 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.rqchallenge.RqChallengeApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-20:10:58.803 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.rqchallenge.RqChallengeApplicationTests]: RqChallengeApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-20:10:58.819 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.rqchallenge.RqChallengeApplicationTests]
-20:10:58.844 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/macbookpro16/IdeaProjects/java-employee-challenge/build/classes/java/main/com/example/rqchallenge/RqChallengeApplication.class]
-20:10:58.844 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.rqchallenge.RqChallengeApplication for test class com.example.rqchallenge.RqChallengeApplicationTests
-20:10:58.888 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.rqchallenge.RqChallengeApplicationTests]: using defaults.
-20:10:58.888 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-20:10:58.892 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
-20:10:58.892 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
-20:10:58.892 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3e587920, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2ef8a8c3, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@24f43aa3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@63fd4873, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1e11bc55, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7544a1e4, org.springframework.test.context.event.EventPublishingTestExecutionListener@70e0accd, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7957dc72, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6ab72419, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3aacf32a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4fdfa676, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@82c57b3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5be82d43]
-20:10:58.894 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@31c269fd testClass = RqChallengeApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@372b0d86 testClass = RqChallengeApplicationTests, locations = '{}', classes = '{class com.example.rqchallenge.RqChallengeApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1e7aa82b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3fa2213, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3dd1dc90, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1a7288a3, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@29df4d43, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@18f8cd79], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
-20:10:58.931 [Test worker] DEBUG org.springframework.boot.ApplicationServletEnvironment - Activating profiles []
-20:10:58.931 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
-=======
-<pre>19:55:14.604 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-19:55:14.609 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-19:55:14.624 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.rqchallenge.RqChallengeApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
-19:55:14.630 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.rqchallenge.RqChallengeApplicationTests], using SpringBootContextLoader
-19:55:14.631 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.rqchallenge.RqChallengeApplicationTests]: class path resource [com/example/rqchallenge/RqChallengeApplicationTests-context.xml] does not exist
-19:55:14.631 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.rqchallenge.RqChallengeApplicationTests]: class path resource [com/example/rqchallenge/RqChallengeApplicationTestsContext.groovy] does not exist
-19:55:14.632 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.rqchallenge.RqChallengeApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-19:55:14.632 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.rqchallenge.RqChallengeApplicationTests]: RqChallengeApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-19:55:14.650 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.rqchallenge.RqChallengeApplicationTests]
-19:55:14.674 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/macbookpro16/IdeaProjects/java-employee-challenge/build/classes/java/main/com/example/rqchallenge/RqChallengeApplication.class]
-19:55:14.675 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.rqchallenge.RqChallengeApplication for test class com.example.rqchallenge.RqChallengeApplicationTests
-19:55:14.714 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.rqchallenge.RqChallengeApplicationTests]: using defaults.
-19:55:14.714 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-19:55:14.721 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
-19:55:14.721 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
-19:55:14.721 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@547e29a4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1c807b1d, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@238b521e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b39fd82, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3e2fc448, org.springframework.test.context.support.DirtiesContextTestExecutionListener@21680803, org.springframework.test.context.event.EventPublishingTestExecutionListener@588ab592, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@c8b96ec, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4cc61eb1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2d8f2f3a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2024293c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7048f722, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@c074c0c]
-19:55:14.723 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@3c8bdd5b testClass = RqChallengeApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@29d2d081 testClass = RqChallengeApplicationTests, locations = '{}', classes = '{class com.example.rqchallenge.RqChallengeApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@67ab1c47, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@60d1a32f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@40c80397, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@e077866, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4678a2eb, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@18f8cd79], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
-19:55:14.747 [Test worker] DEBUG org.springframework.boot.ApplicationServletEnvironment - Activating profiles []
-19:55:14.747 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
->>>>>>> 68e3a677357b57068cb80c8622a05c46c2cdb56e
+<pre>20:27:48.005 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+20:27:48.010 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+20:27:48.028 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.rqchallenge.RqChallengeApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+20:27:48.033 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.rqchallenge.RqChallengeApplicationTests], using SpringBootContextLoader
+20:27:48.035 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.rqchallenge.RqChallengeApplicationTests]: class path resource [com/example/rqchallenge/RqChallengeApplicationTests-context.xml] does not exist
+20:27:48.035 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.rqchallenge.RqChallengeApplicationTests]: class path resource [com/example/rqchallenge/RqChallengeApplicationTestsContext.groovy] does not exist
+20:27:48.035 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.rqchallenge.RqChallengeApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:27:48.036 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.rqchallenge.RqChallengeApplicationTests]: RqChallengeApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:27:48.053 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.rqchallenge.RqChallengeApplicationTests]
+20:27:48.079 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/macbookpro16/IdeaProjects/java-employee-challenge/build/classes/java/main/com/example/rqchallenge/RqChallengeApplication.class]
+20:27:48.079 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.rqchallenge.RqChallengeApplication for test class com.example.rqchallenge.RqChallengeApplicationTests
+20:27:48.124 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.rqchallenge.RqChallengeApplicationTests]: using defaults.
+20:27:48.124 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+20:27:48.128 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+20:27:48.129 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+20:27:48.129 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3e587920, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2ef8a8c3, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@24f43aa3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@63fd4873, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1e11bc55, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7544a1e4, org.springframework.test.context.event.EventPublishingTestExecutionListener@70e0accd, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7957dc72, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6ab72419, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3aacf32a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4fdfa676, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@82c57b3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5be82d43]
+20:27:48.131 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@31c269fd testClass = RqChallengeApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@372b0d86 testClass = RqChallengeApplicationTests, locations = '{}', classes = '{class com.example.rqchallenge.RqChallengeApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1e7aa82b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3fa2213, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3dd1dc90, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1a7288a3, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@29df4d43, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@18f8cd79], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+20:27:48.163 [Test worker] DEBUG org.springframework.boot.ApplicationServletEnvironment - Activating profiles []
+20:27:48.163 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -255,14 +220,13 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.6.1)
 
-<<<<<<< HEAD
-2024-09-30 20:10:59.039  INFO 10156 --- [    Test worker] c.e.r.RqChallengeApplicationTests        : Starting RqChallengeApplicationTests using Java 15.0.10 on Johns-Macbook-Pro.local with PID 10156 (started by macbookpro16 in /Users/macbookpro16/IdeaProjects/java-employee-challenge)
-2024-09-30 20:10:59.040  INFO 10156 --- [    Test worker] c.e.r.RqChallengeApplicationTests        : No active profile set, falling back to default profiles: default
-2024-09-30 20:10:59.823  INFO 10156 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-09-30 20:10:59.845  INFO 10156 --- [    Test worker] c.e.r.RqChallengeApplicationTests        : Started RqChallengeApplicationTests in 0.912 seconds (JVM running for 1.503)
-2024-09-30 20:11:00.199  INFO 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching employee with id: 1
-2024-09-30 20:11:00.207  INFO 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Creating new employee with input: {name=Mr Test, salary=50000, age=30}
-2024-09-30 20:11:00.209 ERROR 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Error while fetching employees: 500 INTERNAL_SERVER_ERROR
+2024-09-30 20:27:48.273  INFO 11228 --- [    Test worker] c.e.r.RqChallengeApplicationTests        : Starting RqChallengeApplicationTests using Java 15.0.10 on Johns-Macbook-Pro.local with PID 11228 (started by macbookpro16 in /Users/macbookpro16/IdeaProjects/java-employee-challenge)
+2024-09-30 20:27:48.273  INFO 11228 --- [    Test worker] c.e.r.RqChallengeApplicationTests        : No active profile set, falling back to default profiles: default
+2024-09-30 20:27:49.033  INFO 11228 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-09-30 20:27:49.057  INFO 11228 --- [    Test worker] c.e.r.RqChallengeApplicationTests        : Started RqChallengeApplicationTests in 0.891 seconds (JVM running for 1.441)
+2024-09-30 20:27:49.405  INFO 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching employee with id: 1
+2024-09-30 20:27:49.411  INFO 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Creating new employee with input: {name=Mr Test, salary=50000, age=30}
+2024-09-30 20:27:49.413 ERROR 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Error while fetching employees: 500 INTERNAL_SERVER_ERROR
 
 org.springframework.web.client.HttpServerErrorException: 500 INTERNAL_SERVER_ERROR
 	at com.example.rqchallenge.employees.EmployeeController.createEmployee(EmployeeController.java:137) ~[main/:na]
@@ -351,15 +315,15 @@ org.springframework.web.client.HttpServerErrorException: 500 INTERNAL_SERVER_ERR
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69) ~[gradle-worker.jar:na]
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74) ~[gradle-worker.jar:na]
 
-2024-09-30 20:11:00.213  INFO 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching all employees
-2024-09-30 20:11:00.215  INFO 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching top 10 highest earning employee names
-2024-09-30 20:11:00.215  INFO 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching all employees
-2024-09-30 20:11:00.217  INFO 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching highest salary of employees
-2024-09-30 20:11:00.217  INFO 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching all employees
-2024-09-30 20:11:00.220  INFO 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Searching employees with name containing: Test
-2024-09-30 20:11:00.220  INFO 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching all employees
-2024-09-30 20:11:00.223  INFO 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching all employees
-2024-09-30 20:11:00.227 ERROR 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Error while fetching employees: Network Error
+2024-09-30 20:27:49.417  INFO 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching all employees
+2024-09-30 20:27:49.419  INFO 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching top 10 highest earning employee names
+2024-09-30 20:27:49.419  INFO 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching all employees
+2024-09-30 20:27:49.421  INFO 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching highest salary of employees
+2024-09-30 20:27:49.421  INFO 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching all employees
+2024-09-30 20:27:49.425  INFO 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Searching employees with name containing: Test
+2024-09-30 20:27:49.425  INFO 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching all employees
+2024-09-30 20:27:49.426  INFO 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching all employees
+2024-09-30 20:27:49.427 ERROR 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Error while fetching employees: Network Error
 
 org.springframework.web.client.RestClientException: Network Error
 	at com.example.rqchallenge.employees.EmployeeController.getAllEmployees(EmployeeController.java:32) ~[main/:na]
@@ -448,31 +412,20 @@ org.springframework.web.client.RestClientException: Network Error
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69) ~[gradle-worker.jar:na]
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74) ~[gradle-worker.jar:na]
 
-2024-09-30 20:11:00.229  INFO 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching employee with id: 999
-2024-09-30 20:11:00.229 ERROR 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Employee not found with id: 999
-2024-09-30 20:11:00.231  INFO 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching top 10 highest earning employee names
-2024-09-30 20:11:00.231  INFO 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching all employees
-2024-09-30 20:11:00.234  INFO 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching highest salary of employees
-2024-09-30 20:11:00.234  INFO 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching all employees
-2024-09-30 20:11:00.238  INFO 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Deleting employee with id: 1
-2024-09-30 20:11:00.242  INFO 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Creating new employee with input: {name=Mr CreateEmployee, salary=50000, age=30}
-2024-09-30 20:11:00.242  INFO 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Successfully created employee: Employee(id=1, employeeName=Mrs Test, employeeSalary=50000, employeeAge=30, profileImage=)
-2024-09-30 20:11:00.247  INFO 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Deleting employee with id: 999
-2024-09-30 20:11:00.248 ERROR 10156 --- [    Test worker] c.e.r.employees.EmployeeController       : Error while fetching employees: 404 NOT_FOUND
+2024-09-30 20:27:49.430  INFO 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching employee with id: 999
+2024-09-30 20:27:49.430 ERROR 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Employee not found with id: 999
+2024-09-30 20:27:49.431  INFO 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching top 10 highest earning employee names
+2024-09-30 20:27:49.432  INFO 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching all employees
+2024-09-30 20:27:49.435  INFO 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching highest salary of employees
+2024-09-30 20:27:49.435  INFO 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Fetching all employees
+2024-09-30 20:27:49.439  INFO 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Deleting employee with id: 1
+2024-09-30 20:27:49.442  INFO 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Creating new employee with input: {name=Mr CreateEmployee, salary=50000, age=30}
+2024-09-30 20:27:49.443  INFO 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Successfully created employee: Employee(id=1, employeeName=Mrs Test, employeeSalary=50000, employeeAge=30, profileImage=)
+2024-09-30 20:27:49.448  INFO 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Deleting employee with id: 999
+2024-09-30 20:27:49.449 ERROR 11228 --- [    Test worker] c.e.r.employees.EmployeeController       : Error while fetching employees: 404 NOT_FOUND
 
 org.springframework.web.client.HttpClientErrorException: 404 NOT_FOUND
-	at com.example.rqchallenge.employees.EmployeeController.deleteEmployeeById(EmployeeController.java:164) ~[main/:na]
-=======
-2024-09-30 19:55:14.848  INFO 9913 --- [    Test worker] c.e.r.RqChallengeApplicationTests        : Starting RqChallengeApplicationTests using Java 15.0.10 on Johns-Macbook-Pro.local with PID 9913 (started by macbookpro16 in /Users/macbookpro16/IdeaProjects/java-employee-challenge)
-2024-09-30 19:55:14.848  INFO 9913 --- [    Test worker] c.e.r.RqChallengeApplicationTests        : No active profile set, falling back to default profiles: default
-2024-09-30 19:55:15.617  INFO 9913 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-09-30 19:55:15.639  INFO 9913 --- [    Test worker] c.e.r.RqChallengeApplicationTests        : Started RqChallengeApplicationTests in 0.89 seconds (JVM running for 1.446)
-2024-09-30 19:55:15.969  INFO 9913 --- [    Test worker] c.e.r.employees.EmployeeController       : Deleting employee with id: 999
-2024-09-30 19:55:15.972 ERROR 9913 --- [    Test worker] c.e.r.employees.EmployeeController       : Error while deleting employee with id: 999
-
-org.springframework.web.client.HttpClientErrorException: 404 NOT_FOUND
-	at com.example.rqchallenge.employees.EmployeeController.deleteEmployeeById(EmployeeController.java:150) ~[main/:na]
->>>>>>> 68e3a677357b57068cb80c8622a05c46c2cdb56e
+	at com.example.rqchallenge.employees.EmployeeController.deleteEmployeeById(EmployeeController.java:165) ~[main/:na]
 	at com.example.rqchallenge.RqChallengeApplicationTests.deleteEmployeeById_NotFound(RqChallengeApplicationTests.java:372) ~[test/:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
@@ -569,11 +522,7 @@ org.springframework.web.client.HttpClientErrorException: 404 NOT_FOUND
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<<<<<<< HEAD
-<a href="http://www.gradle.org">Gradle 7.3.1</a> at 30 Sep 2024, 20:11:00</p>
-=======
-<a href="http://www.gradle.org">Gradle 7.3.1</a> at 30 Sep 2024, 19:55:16</p>
->>>>>>> 68e3a677357b57068cb80c8622a05c46c2cdb56e
+<a href="http://www.gradle.org">Gradle 7.3.1</a> at 30 Sep 2024, 20:27:49</p>
 </div>
 </div>
 </body>
