@@ -143,6 +143,7 @@ public class EmployeeController implements IEmployeeController {
                 log.error("Failed to create employee: {}", response.getBody() != null ? response.getBody().getStatus() : "Unknown error");
                 return ResponseEntity.status(response.getStatusCode()).build();
             }
+
         } catch (RestClientException e) {
             log.error("Error while fetching employees: {}", e.getMessage(), e);
             HttpStatus status = HttpStatus.INTERNAL_SERVER_ERROR;
@@ -221,5 +222,4 @@ public class EmployeeController implements IEmployeeController {
     private boolean isValidId(String id) {
         return id != null && !id.trim().isEmpty() && id.matches("\\d+");
     }
-
 }
